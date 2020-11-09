@@ -1,0 +1,98 @@
+.body{
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+}
+
+.example-header-image {
+    background-size: cover;
+  }
+
+  .schedule-table{
+    margin-top: 20px;
+    width: 65%;
+    margin: auto;
+    height: 600px;
+  }
+
+.form-table{
+    margin-top: 20px;
+    width: 25%;
+    margin: auto;
+    height: 600px;
+    position:relative;
+  }
+.container{
+    width: 100%;
+}
+
+.mat-elevation-z8 {
+    width: 100%;
+  }
+
+  mat-form-field, mat-form-field-wrapper, mat-form-field-flex , mat-form-field-infix {
+    height: 30px;
+    margin: 15px;
+    border-radius: 2px;
+    padding: 0.2rem;
+    width: 95%;
+    background-color: white;
+  }
+
+  .addContactListButton {
+    width: 95%;
+    margin: 15px;
+  }
+
+.message{
+width: 95%;
+}
+  input-container {
+    padding-top: 0.7rem;
+  }
+.send{
+  width: 95%;
+  margin-top: 25px;
+}
+  .sendButton{
+    margin-left: 85%;
+  
+  }
+
+// <<<<<<<<<<<   Table   >>>>>>>
+
+.table{
+  height: 100%;
+  }
+
+.mat-elevation-z8{
+  width: 96%;
+  margin: auto;
+  height: 100%;
+}
+
+th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+  padding: 5px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  text-align: center;
+}
+tr.mat-header-row{
+  text-align: center;
+}
+th.mat-header-cell {
+  padding-left: 30px;
+  text-align: center;
+}
+
+p{
+  max-height: 70px;
+  max-width: 280px;
+  font-size: 12px;
+  overflow-y: scroll;
+}
+
+
+.mat-raised-button{
+  padding: 5px;
+}

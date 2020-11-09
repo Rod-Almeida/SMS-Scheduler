@@ -1,0 +1,83 @@
+.csv-file-chooser-section {
+    padding: 20px;
+    margin: 5%;
+    border: 1px solid;
+    text-align: left;
+  }
+  mat-card-header {
+display: flex;
+  }
+  .arrow-left {
+display: block;
+position: absolute;
+  }
+
+ .mat-card-header-text {
+    margin: 0px 1px;
+}
+
+  .csv-result-table {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+  }
+
+  .input-container{
+    margin: 15px;
+    display: flex;
+  }
+
+  .fileInfo{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+  }
+  
+
+
+// <<<<<<<<<<<   Table   >>>>>>>
+
+    td.mat-cell:last-of-type, td.mat-footer-cell:last-of-type {
+    padding-right: 5px;
+}
+
+td.mat-cell:first-of-type, td.mat-footer-cell:first-of-type {
+  padding-left: 5px;
+}
+
+th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+  padding: 5px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  text-align: center;
+  
+}
+td.mat-cell, .messageTable{
+max-width: 200px;
+min-height: 150px;
+max-height: 200px;
+font-size: 12px;
+}
+
+.mat-raised-button{
+  padding: 5px;
+}
+
+.mat-elevation-z8 {
+    width: 100%;
+  }
+
+// <<<<<<< buttons >>>>>>>>>
+
+  .btn-container{
+      justify-content: space-between;
+      padding: 15px;
+      width: 95%;
+      display: flex;
+  }
+  .cancelButton{
+      margin-right: auto;
+  }
+  .saveButton{
+    margin-left: auto;
+  }
